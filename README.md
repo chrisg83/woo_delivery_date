@@ -1,7 +1,8 @@
 # woo_delivery_date
 
 <p>Adds Order Delivery date to the "Shipping Method" section of invoices and packing lists</p>
-* 'Show shipping method' should be enabled for invoices!
+
+* "Show shipping method" should be enabled for invoices!
 
 * This Code is Designed to Go in the WordPress Subtheme Functions.php
 
