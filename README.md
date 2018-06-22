@@ -15,7 +15,15 @@ https://woocommerce.com/products/print-invoices-packing-lists/
 
 # Other Plugins
 
-* With a Slight modification to this code you can also make it for the Pickup Date Addon for Order Delivery Date for WooCommerce Plugin.
+* With a Slight modification to this code you can also make it work for the Pickup Date Addon for Order Delivery Date for WooCommerce Plugin By Tyche Softwares.
+
+You just need to swap out the
+
+```
+
+"$delivery_date = get_post_meta( $order_id, '_delivery_date', true );"
+```
+The name of the hook/function is different, you will have to look up the replacement for "_ delivery_date" 
 
 * Tyche Softwares - Pickup Date Add-on for Order Delivery Date for WooCommerce Plugin https://www.tychesoftwares.com/store/premium-plugins/pickup-date-addon-order-delivery-date-woocommerce-plugin/
 
